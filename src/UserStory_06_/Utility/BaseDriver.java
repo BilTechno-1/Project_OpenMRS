@@ -1,5 +1,7 @@
-package Utility;
-
+package UserStory_06_.Utility;
+import Utility.Tools;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -9,14 +11,17 @@ import org.testng.annotations.BeforeClass;
 import java.time.Duration;
 
 public class BaseDriver {
+    public static Logger logger = LogManager.getLogger();
     public static WebDriver driver;
     public static WebDriverWait wait;
 
     @BeforeClass
     public void InitialTransactions(){
+        logger.info("Loglama işlemi başladı");
        // System.out.println("Başlangıç işlemleri yapılıyor");
 
         driver=new ChromeDriver();
+        driver.get("https://openmrs.org/demo/");
 
         //driver.manage().window().maximize(); // Ekranı max yapıyor.
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20)); // 20 sn mühlet: sayfayı yükleme mühlet
@@ -31,6 +36,7 @@ public class BaseDriver {
 
         Tools.Wait(3);
         driver.quit();
+        logger.info("Loglama işlemi bitti");
     }
 
 
