@@ -59,7 +59,8 @@ public class US_407_PatientDeletion extends BaseDriverGenel {
         openMRS.deleteReason.sendKeys("Hatalı yazılan");
 
         openMRS.confirmBtn.click();
-        System.out.println("son deneme");
+        System.out.println("son deneme1");
+
         //openMRS.verifyMessageContainsText("succsess");
 
 
