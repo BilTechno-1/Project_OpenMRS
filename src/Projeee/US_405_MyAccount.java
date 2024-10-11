@@ -67,7 +67,7 @@ public void MyAccount(){
 
     openMRS.myAccount.click();
     Assert.assertTrue(openMRS.changePassword.isDisplayed() && openMRS.changePassword.isEnabled(),"Change Password butonu aktif değil");
-    Assert.assertTrue(openMRS.myLanguages.isDisplayed(),"My languages butonu aktif değil");
+    Assert.assertTrue(openMRS.myLanguages.isDisplayed(),"My languages butonu aktif değildir");
 
 }
 
