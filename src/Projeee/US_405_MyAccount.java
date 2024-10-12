@@ -22,7 +22,7 @@ public void MyAccount(){
     driver.get("https://openmrs.org/");
     Tools.Bekle(2);
 
-    Elements_Ummet openMRS=new Elements_Ummet();
+    Elements_US_404_405 openMRS=new Elements_US_404_405();
 
     wait.until(ExpectedConditions.elementToBeClickable(openMRS.languageBtn));
     openMRS.languageBtn.click();
@@ -45,7 +45,7 @@ public void MyAccount(){
     wait.until(ExpectedConditions.titleIs("Login"));
     openMRS.username.sendKeys("admin");
 
-    openMRS.passWord.sendKeys("password");
+    openMRS.passWord.sendKeys("Admin123");
 
     int randomSecim=Tools.randomGenerator(openMRS.sessionLocationList.size());
     System.out.println(randomSecim);

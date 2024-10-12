@@ -2,9 +2,7 @@ package Projeee;
 
 import Utility.BaseDriverGenel;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -12,12 +10,11 @@ import org.testng.Assert;
 
 import java.util.List;
 
-import static Utility.BaseDriverGenel.driver;
 import static Utility.BaseDriverGenel.wait;
 
-public class Elements_Ummet {
+public class Elements_US_404_405 {
 
-    public Elements_Ummet() {
+    public Elements_US_404_405() {
     PageFactory.initElements(BaseDriverGenel.driver,this);
     }
 

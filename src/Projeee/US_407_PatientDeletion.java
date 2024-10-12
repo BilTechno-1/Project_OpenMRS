@@ -24,7 +24,7 @@ import org.testng.annotations.Test;
 public class US_407_PatientDeletion extends BaseDriverGenel {
     @Test
     public void PatientDeletion() {
-        Elements_Ummet openMRS = new Elements_Ummet();
+        Elements_US_404_405 openMRS = new Elements_US_404_405();
 
         driver.get("https://demo.openmrs.org/openmrs/login.htm");
         Tools.Bekle(2);
