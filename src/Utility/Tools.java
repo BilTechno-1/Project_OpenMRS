@@ -101,4 +101,16 @@ public class Tools {
         elements.confirm.click();
 
     }
+    public static boolean listContainsString(List<WebElement> list, String aranacakKelime ){
+        boolean urunBulundu=false;
+        for(WebElement urun : list)
+        {
+            if (urun.getText().equals(aranacakKelime)) {
+                urunBulundu = true;
+                break;
+            }
+        }
+        return  urunBulundu;
+    }
+
 }
