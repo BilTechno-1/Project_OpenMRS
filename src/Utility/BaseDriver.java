@@ -1,5 +1,4 @@
-package UserStory_06_.Utility;
-import Utility.Tools;
+package Utility;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;

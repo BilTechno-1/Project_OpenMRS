@@ -1,6 +1,6 @@
-package UserStory_06_;
+package Projeee;
 
-import UserStory_06_.Utility.BaseDriver;
+import Utility.BaseDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
