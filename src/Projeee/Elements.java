@@ -26,7 +26,7 @@ public class Elements {
     @FindBy(xpath = "//span[text()='Explore OpenMRS 2']")
     public WebElement exploreOpenMRS2;
 
-    @FindBy(xpath = "//span[text()='Enter the OpenMRS 2 Demo']")
+    @FindBy(linkText= "Enter the OpenMRS 2 Demo")
     public WebElement entertheOpenMRS2Demo;
 
     @FindBy(id = "username")
