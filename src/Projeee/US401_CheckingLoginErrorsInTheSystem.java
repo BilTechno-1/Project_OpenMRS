@@ -1,6 +1,5 @@
-package US_01;
+package Projeee;
 
-import Projeee.Elements;
 import Utility.BaseDriverGenel;
 import Utility.Tools;
 import org.openqa.selenium.support.ui.ExpectedConditions;

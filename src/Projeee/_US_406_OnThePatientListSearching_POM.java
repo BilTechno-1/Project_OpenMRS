@@ -1,7 +1,7 @@
-package UserStory_06_;
+package Projeee;
 
 
-import UserStory_06_.Utility.BaseDriver;
+import Utility.BaseDriver;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class OnThePatientListSearching_POM extends BaseDriver {
+public class _US_406_OnThePatientListSearching_POM extends BaseDriver {
     @Test
     public void ProceedToCheckout() {
 
